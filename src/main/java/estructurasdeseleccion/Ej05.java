@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package tema3noelia;
+package estructurasdeseleccion;
 
 import java.util.Scanner;
 
@@ -33,12 +33,26 @@ public class Ej05 {
 
         if (opcion == 1) {
             System.out.println("Ha seleccionado calcular el área de un cuadrado...");
+            System.out.println("Introduce el lado del cuadrado: ");
+            double lado = entrada.nextDouble();
+            double areaCuadrado = Math.pow(lado, 2);
+            System.out.println("El area del cuadrado es: " + areaCuadrado);
         } else {
             if (opcion == 2) {
                 System.out.println("Ha seleccionado calcular el área de un triángulo...");
+                System.out.println("Introduce la base del triangulo: ");
+                double base = entrada.nextDouble();
+                System.out.println("Introduce la altura del triangulo: ");
+                double altura = entrada.nextDouble();
+                double areaTriangulo = base * altura / 2;
+                System.out.println("El area del triangulo es: " + areaTriangulo);
             } else {
                 if (opcion == 3) {
                     System.out.println("Ha seleccionado calcular el área de un círculo...");
+                    System.out.println("Introduce el radio del circulo: ");
+                    double radio = entrada.nextDouble();
+                    double areaCirculo = Math.PI * Math.pow(radio, 2);
+                    System.out.println("El area del circulo es: " + areaCirculo);
                 } else {
                     System.out.println("Ha seleccionado terminar");
                 }

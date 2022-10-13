@@ -73,7 +73,7 @@ public class Seleccion {
 //            } else {
 //                System.out.println("El numero de caracteres es impar");
 
-            String textoResultado = (nombre.length() % 2 == 0)?
+            //String textoResultado = (nombre.length() % 2 == 0)?
                     
             }
 
