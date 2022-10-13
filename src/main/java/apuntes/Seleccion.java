@@ -75,7 +75,7 @@ public class Seleccion {
 
             String textoResultado = (nombre.length() % 2 == 0)?
                     
-            } 
+            }
 
              
 
