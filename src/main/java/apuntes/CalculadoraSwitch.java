@@ -37,7 +37,7 @@ public class CalculadoraSwitch {
         String opcion = JOptionPane.showInputDialog(menu);
 
         switch (opcion) {
-            case "1":
+            case "1", "9"://se puede poner varios case en el mismo, se ejecutará el mismo código
                 resultado = operando1 + operando2;
                 System.out.println("El resultado es %.2f, resultado");
                 break;
