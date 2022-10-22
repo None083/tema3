@@ -4,11 +4,13 @@
  */
 package estructurasderepeticion;
 
+import java.util.Scanner;
+
 /**
  *
- * @author noelia
+ * @author FX506
  */
-public class Ej01 {
+public class Ej06 {
 
     /**
      * @param args the command line arguments
@@ -16,17 +18,16 @@ public class Ej01 {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        int x = 5;
-       
-        while (x<100) {
+        Scanner teclado=new Scanner(System.in);
+        System.out.print("Ingrese el valor final:");
+        int n = teclado.nextInt();
+        
+        
+        for (int x = 1; x<=n; x++) {
             System.out.print(x);
             System.out.print(" - ");
-            x = x + 1;
+            
         }
-        //va a mostrar los numeros del 1 al 100
-        //el mismo resultado que si hubiera puesto x++; como actualizacion
-
-        
         
         
     }

@@ -17,6 +17,14 @@ public class Ej03 {
         // TODO code application logic here
         
         
+        int i = 0;
+        int x = 15;
+        
+        while (i<25){
+            System.out.println(x);
+            i++;
+            x = x*2;
+        }
         
         
         

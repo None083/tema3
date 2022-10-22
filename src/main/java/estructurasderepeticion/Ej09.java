@@ -6,9 +6,9 @@ package estructurasderepeticion;
 
 /**
  *
- * @author noelia
+ * @author FX506
  */
-public class Ej01 {
+public class Ej09 {
 
     /**
      * @param args the command line arguments
@@ -16,17 +16,17 @@ public class Ej01 {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        int x = 5;
-       
-        while (x<100) {
-            System.out.print(x);
-            System.out.print(" - ");
-            x = x + 1;
+        int i=0;
+        int j=6;
+        while (i<0) {
+            i++;
+            j++;
         }
-        //va a mostrar los numeros del 1 al 100
-        //el mismo resultado que si hubiera puesto x++; como actualizacion
-
+        System.out.println(j);
         
+        //se va a mostrar el numero 6
+        //ya que i vale 0 y no se cumple la condicion
+        //no se ejecutará lo de dentro del while
         
         
     }

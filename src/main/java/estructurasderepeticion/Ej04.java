@@ -23,11 +23,20 @@ public class Ej04 {
                System.out.println("Número: " + numero);
                numero++;
           }
+          
           do {
                System.out.println("Número: " + --numero);
           } while(numero > 1);
 
         
+        
+        //en el primer bucle mostrará los números menores que 11
+        //así que aparecerán del 1 al 10, pero cuando salga del bucle 
+        //numero valdrá 11
+        
+        //en el segundo, al pner --numero, en vez de numero--
+        //aparecerán los numeros del 10 al 1
+        //si fuera la segunda opción aparecerían del 11 al 2
         
     }
     
