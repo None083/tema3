@@ -22,7 +22,7 @@ public class Ej08 {
         }
         System.out.println(j);
         
-        //va a sumer 1 a j cada vez que i sea menor o igual que -10
+        //va a sumar 1 a j cada vez que i sea menor o igual que -10
         //esto pasará cuatro veces, por lo que el número mostrado
         //será 5, ya que j valía 1
 

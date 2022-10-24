@@ -25,7 +25,7 @@ public class Ej03 {
             i++;
             x = x*2;
         }
-        
+        //esto estaría mejor en un for
         
         
     }

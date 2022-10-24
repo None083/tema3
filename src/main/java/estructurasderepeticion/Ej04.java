@@ -34,7 +34,7 @@ public class Ej04 {
         //así que aparecerán del 1 al 10, pero cuando salga del bucle 
         //numero valdrá 11
         
-        //en el segundo, al pner --numero, en vez de numero--
+        //en el segundo, al poner --numero, en vez de numero--
         //aparecerán los numeros del 10 al 1
         //si fuera la segunda opción aparecerían del 11 al 2
         
