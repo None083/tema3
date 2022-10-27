@@ -20,13 +20,14 @@ public class PrimerosTerminos {
         // primeros términos de la siguiente serie:
         //FO=0 / F1=1 / Fn=Fn-1+Fn-2 / F2=F2-1+F2-2=0+1=1
         
-        final int F0 = 0;
-        final int F1 = 1;
-        int numeroSerie = 0;
-        
-        for (int i = numeroSerie; i >= 35; i++) {
-            numeroSerie = F0 + F1;
-            
+        int f0 = 0;
+        int f1 = 1;
+        int numeroSerie;
+        System.out.println(f0 + "\n" + f1);
+        for (int i = 0; i < 35; i++) {
+            numeroSerie = f0 + f1;
+            f0 = f1;
+            f1 = numeroSerie;
             System.out.println(numeroSerie);
         }
         
