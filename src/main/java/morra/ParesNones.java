@@ -58,7 +58,7 @@ public class ParesNones {
 
     }
 
-    private static String jugar() {
+    public static String jugar() {
         String jugarSalir = JOptionPane.showInputDialog("""
                                Elija una opción
                          ---------------------------
@@ -68,12 +68,12 @@ public class ParesNones {
         return jugarSalir;
     }
 
-    private static boolean esJugarSalirValido(String jugarSalir) {
+    public static boolean esJugarSalirValido(String jugarSalir) {
         return (jugarSalir.equalsIgnoreCase("Jugar")
                 || jugarSalir.equalsIgnoreCase("Salir"));
     }
 
-    private static String pedirOpcion() {
+    public static String pedirOpcion() {
         String codigoOpcion = "";
         do {
             codigoOpcion = jugar();

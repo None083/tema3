@@ -4,6 +4,8 @@
  */
 package morra;
 
+import static morra.ParesNones.pedirOpcion;
+
 /**
  *
  * @author noelia
@@ -14,7 +16,21 @@ public class Morra {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+
+        
+        final int MINIMO = 1;
+        final int MAXIMO = 5;
+        
+        String codigoOpcion = pedirOpcion();
+        
+        if (codigoOpcion.equalsIgnoreCase("Jugar")) {
+            
+        }
+        
+        
+        
+        
+        
     }
     
 }
