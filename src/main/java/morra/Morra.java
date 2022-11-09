@@ -134,6 +134,7 @@ public class Morra {
         return codigoOpcion;
     }
     
+    //
     private static int pedirNumeroDedos() {
         int numeroDedosInt = 0;
         boolean repetir = true;
